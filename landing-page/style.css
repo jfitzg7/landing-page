@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero {
@@ -18,7 +18,7 @@ body {
 .hero-content {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    width: 1000px;
     flex: 1;
 }
 
@@ -59,8 +59,11 @@ header a {
 .hero-cta-text {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    flex: 1;
+    align-items: start;
+    justify-content: center;
+    gap: 8px;
+    flex-shrink: 0;
+    max-width: 400px;
 }
 
 .hero-cta-header {
@@ -74,13 +77,27 @@ header a {
 }
 
 .hero-cta-text button {
-    flex: none
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 0;
+    padding: 8px 30px;
 }
 
 .hero-image-placeholder-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1;
+}
+
+.hero-image-placeholder {
+    background-color: gray;
+    height: 224px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
