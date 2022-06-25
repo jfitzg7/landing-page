@@ -23,7 +23,7 @@ body {
 .hero-content {
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    width: 1000px; /* not good */
     flex: 1;
 }
 
@@ -168,7 +168,26 @@ header a {
 
 .inspiring-quote {
     display: flex;
+    flex-direction: column;
     flex: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB
+}
+
+.inspiring-quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    max-width: 775px;
+}
+
+.inspiring-quote-author {
+    font-size: 18px;
+    font-weight: 500;
+    width: 775px; /* not good */
+    text-align: right;
 }
 
 /*
