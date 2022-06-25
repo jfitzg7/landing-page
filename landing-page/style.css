@@ -30,14 +30,15 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 header ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    gap: 24px;
     margin: 0;
     padding: 0;
     flex: 1;
@@ -58,6 +59,7 @@ header a {
 
 .hero-cta {
     display: flex;
+    gap: 32px;
     flex: 1;
 }
 
@@ -68,7 +70,7 @@ header a {
     justify-content: center;
     gap: 8px;
     flex-shrink: 0;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .hero-cta-header {
@@ -132,7 +134,7 @@ header a {
 .random-information-image-section-container {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 40px;
     flex: 1;
 }
 
@@ -140,7 +142,7 @@ header a {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    max-width: 175px;
+    max-width: 165px;
     flex: 1;
 }
 
@@ -201,7 +203,55 @@ header a {
 
 .call-to-action {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex: auto;
+}
+
+.call-to-action-container {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    width: 1000px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-radius: 10px;
+}
+
+.call-to-action-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 3 1 0;
+}
+
+.call-to-action-text-container-container {
+    width: 440px;
+}
+
+.call-to-action-header {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.call-to-action-subtext {
+    font-weight: 300;
+}
+
+.call-to-action-button-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.call-to-action-button-container button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 8px 30px;
 }
 
 /*
