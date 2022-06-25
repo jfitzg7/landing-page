@@ -6,6 +6,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/*
+    === BEGIN HERO SECTION ===
+*/
+
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -101,21 +106,88 @@ header a {
     flex: 1;
 }
 
+/*
+    === END HERO SECTION ===
+*/
+
+
+/*
+    === BEGIN RANDOM INFORMATION SECTION ===
+*/
+
 .random-information {
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex: auto;
 }
+
+.random-information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 32px;
+}
+
+.random-information-image-section-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex: 1;
+}
+
+.random-information-image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 175px;
+    flex: 1;
+}
+
+.random-information-image-placeholder {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.random-information-image-subtext {
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+    flex: 1;
+}
+
+/*
+    === END RANDOM INFORMATION SECTION ===
+*/
+
+
+/*
+    === BEGIN INSPIRING QUOTE SECTION ===
+*/
 
 .inspiring-quote {
     display: flex;
     flex: auto;
 }
 
+/*
+    === END INSPIRING QUOTE SECTION ===
+*/
+
+
+/*
+    === BEGIN CALL TO ACTION SECTION ===
+*/
+
 .call-to-action {
     display: flex;
     flex: auto;
 }
+
+/*
+    === END CALL TO ACTION SECTION ===
+*/
 
 
 footer {
